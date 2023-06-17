@@ -1,23 +1,25 @@
-i#include <stdio.h>
+#include <stdio.h>
 /**
  *main - Entry point
- * Description: 'Print all possible combination of single-digits'
+ * Description: 'Print all possible combination of single-igits'
  * Return: Always 0
  */
 int main(void)
 {
-	int n;
 
-	for (n = 48; n <= 57; n++)
+	int num;
+
+	for (num = 0; num <= 9; num++)
 	{
-		putchar(n);
-		if (n == 57)
-		{
+		putchar((num % 10) + '0');
+		if (num == 9)
 			continue;
-		}
+
 		putchar(',');
 		putchar(' ');
 	}
-	putchar ('\n');
+
+	putchar('\n');
+
 	return (0);
 }
