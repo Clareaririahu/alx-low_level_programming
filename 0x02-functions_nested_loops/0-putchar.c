@@ -2,9 +2,12 @@
 
 /**
  * main - Entry point
- * Description: prints _putchar and a new line
- * Return: Always 0
+ * description - Program to print _putchar
+ * followed by a new line
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 
 {
@@ -19,4 +22,5 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
+
 }
