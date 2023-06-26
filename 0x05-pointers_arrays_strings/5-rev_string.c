@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * rev_str - function that reverses a string
- * @s: The output to reverse
+ * rev_str - a function that reverses a string
+ * @s: The output to be reversed
  * Return: Always 0.
  */
+
 void rev_string(char *s)
 {
-
 	int length = 0;
 	int i = 0;
 
